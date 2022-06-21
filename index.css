@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@500&family=Comic+Neue:wght@700&family=Hubballi&family=Klee+One:wght@600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@500&family=Comic+Neue:wght@700&family=Hubballi&family=Klee+One:wght@600&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@500&family=Comic+Neue:wght@700&family=Hubballi&family=Klee+One:wght@600&family=Tiro+Telugu&family=Ubuntu&display=swap');
+
+
+
+.header-img {
+    padding: auto;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+    padding: 310px 0px;
+    background-image: url('images/giki.jpeg');
+      height: 100vh;
+  }
+  
+  .header1 {
+    padding: 60px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+  }
+  .header {
+    padding: 10px;
+    text-align: left;
+    background:rgba(206, 88, 24, 0.694);
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+  }
+  .ques {
+    padding: 60px;
+    text-align: center;
+    font-size: 20px;
+  }
+  
+  body {
+      font-family: 'Montserrat', sans-serif;
+  }
+  #team {
+      padding: 30px 0;
+  }
+  .sec-heading h6 {
+      font-family: 'Allura', cursive;
+      font-size: 65px;
+  }
+  .single-box {
+      border: 1px solid #ddd;
+      border-radius: 20px;
+      overflow: hidden;
+      background-color: #fff
+  }
+  .info-area {
+      padding: 0 20px 45px;
+  }
+  .img-area {
+      overflow: hidden;
+      padding: 15px 0 15px;
+  }
+  .img-area img {
+      margin: 0 auto;
+      -webkit-transition: all 0.5s ease;
+      transition: all 0.5s ease;
+      max-width: 230px
+  }
+  .single-box:hover img {
+      -webkit-transform: scale(1.1);
+      transform: scale(1.1);
+  }
+  .info-area i {
+      display: inline-block;
+      color: #ffb400;
+      margin: 0 4px;
+  }
+  .info-area h4 {
+      font-weight: 600
+  }
+  .info-area h5 {
+      color: #3b04db;
+      margin: 10px 0 0;
+      font-weight: 600
+  }
+  .info-area a {
+      display: inline-block;
+      margin: 25px 0 0;
+      background-color: darkorange;
+      color: #fff;
+      padding: 10px 35px;
+      border-radius: 4px;
+  }
+  .team-slider .owl-dots {
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: -60px;
+      text-align: center;
+      width: 100%;
+  }
+  .team-slider button.owl-dot {
+      width: 16px;
+      height: 16px;
+      display: inline-block;
+      margin: 0 6px;
+      text-align: center;
+      border-radius: 50%;
+      background-color: #262626;
+  }
+  .team-slider .owl-dot.active {
+      background-color: coral;
+  }
+  .move-animation {
+      position: relative;
+      -webkit-animation: move-animation 2s ease-in-out infinite;
+      animation: move-animation 2s ease-in-out infinite;
+  }
+  
+  @-webkit-keyframes move-animation {
+      0% {
+          top: 3px;
+      }
+      50% {
+          top: -3px;
+      }
+      100% {
+          top: 3px;
+      }
+  }
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+    .Scontainer {
+      position: relative;
+    }
+    
+    /* Bottom right text */
+    .text-block {
+      position: relative;
+      text-align: left;
+      bottom: 60px;
+      background-color: rgba(128, 128, 128, 0.493);
+      color: white;
+      padding-left: 40px;
+      padding-right: 20px;
+    }
+  
+    .ques1 {
+      padding: 1px;
+      text-align: center;
+      font-size: 20px;
+    }
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.bgimg {
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.6;
+
+}
+
+
+.home {
+    padding: auto;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+    padding: 310px 0px;
+    background-image: url('images/audi 2.jpeg');
+      height: 100vh;
+}
+
+.home p {
+
+    color: #000000;
+    font-size: 100px;
+    position: absolute;
+    top: 100px;
+    left: 540px;
+}
+
+.row h1{
+    text-align: center;
+    margin-top: 30px;
+}
+.row p{
+    margin-top: 10px;
+}
+/* footer ki sari CSS */
+#lastfooter{
+    text-align: center;
+    position: relative;;
+    background-color: azure;
+}
+
+#footer{
+    background-color: #ceda9e;
+
+}
+#logo{
+    margin: 20px;
+    margin-top: 35px;
+}
+
+#icons{
+    margin-top: 35px;
+    margin-bottom: 20px;
+    margin-left: 90px;
+}
+#address{
+    margin-left: 20px;
+}
+
+.wrapper .icon{
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 50%;
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 22px;
+    display: inline-block;
+    align-items: center;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    color: #333;
+    text-decoration: none;
+    text-align: center;
+  }
+  .wrapper .tooltip {
+    position: absolute;
+    top: 0;
+    line-height: 1.5;
+    font-size: 14px;
+    background-color: #ffffff;
+    color: #ffffff;
+    padding: 5px 8px;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  .wrapper .tooltip::before {
+    position: absolute;
+    content: "";
+    height: 8px;
+    width: 8px;
+    background-color: #ffffff;
+    bottom: -3px;
+    left: 50%;
+    transform: translate(-50%) rotate(45deg);
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  .wrapper .icon:hover .tooltip {
+    top: -45px;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+  }
+  .wrapper .icon:hover span,
+  .wrapper .icon:hover .tooltip {
+    text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+  }
+  .wrapper .facebook:hover,
+  .wrapper .facebook:hover .tooltip,
+  .wrapper .facebook:hover .tooltip::before {
+    background-color: #3b5999;
+    color: #ffffff;
+  }
+  
+  .wrapper .instagram:hover,
+  .wrapper .instagram:hover .tooltip,
+  .wrapper .instagram:hover .tooltip::before {
+    background-color: #e1306c;
+    color: #ffffff;
+  }
+  .wrapper .github:hover,
+  .wrapper .github:hover .tooltip,
+  .wrapper .github:hover .tooltip::before {
+    background-color: #333333;
+    color: #ffffff;
+  }
+
+  .wrapper .linkedin:hover,
+  .wrapper .linkedin:hover .tooltip,
+  .wrapper .linkedin:hover .tooltip::before {
+    background-color: #0e76a8;
+    color: #ffffff;
+  }
+
+  /* footer ki CSS khatam */
+
+  .mainsociety{
+    padding: auto;
+    background-size:cover;
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+    padding: 0px 0px;
+    background-image: url('images/main.society.png');
+    height: 100vh; 
+    width: 100%;
+  }
+
+  #society_heading {
+      text-align: center;
+  }
+
+  #soc h4{
+text-align: center;
+font-family: 'Ubuntu', sans-serif;
+  }
+
+  #soc h1{
+    text-align: center;
+    font-family: 'Tiro Telugu', serif;
+      }
+
+
+  hr.solid {
+    border-top: 3px solid #bbb;
+  }
